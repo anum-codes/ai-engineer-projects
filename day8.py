@@ -19,7 +19,7 @@ llm = ChatGoogleGenerativeAI(
     temperature=0.3
 )
 
-# FIXED: Switched to the active, supported mainline model
+
 embeddings = GoogleGenerativeAIEmbeddings(
     model="gemini-embedding-001",
     google_api_key=os.getenv("GEMINI_API_KEY")

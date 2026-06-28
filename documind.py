@@ -107,9 +107,8 @@ def process_pdf(uploaded_file):
     chunks = splitter.split_documents(documents)
 
     vectorstore = Chroma.from_documents(
-        documents=chunks,
-        embedding=get_embeddings(),
-        persist_directory="./documind_db"
+    documents=chunks,
+    embedding=get_embeddings()
     )
 
     os.unlink(tmp_path)

@@ -6,6 +6,7 @@ Built in public — daily projects.
 ---
 
 ## 🌟 Featured Project: DocuMind
+🔗 **Live Demo:** https://anum-codes-ai-engineer-projects-documind-2d4qip.streamlit.app/
 
 An AI-powered document intelligence web app. Upload any PDF and have
 a conversation with it. Powered by RAG, LangChain, ChromaDB, and Streamlit.

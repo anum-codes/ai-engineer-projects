@@ -1,7 +1,7 @@
 # AI Engineering Journey 🚀
 
 A 6-month hands-on journey to become an AI Engineer.
-Built in public — daily projects.
+Built in public — Daily projects.
 
 ---
 
@@ -34,7 +34,7 @@ a conversation with it. Powered by RAG, LangChain, ChromaDB, and Streamlit.
 
 ### Day 4 — Web Scraper + AI Proposal Generator
 - Built a tool that reads any business website and generates a personalized sales proposal
-- Scraped real Pakistani brands (Sapphire, Attireium) and generated specific AI automation proposals
+- Scraped real Pakistani brands and generated specific AI automation proposals
 - **Tech:** Python, BeautifulSoup, Requests, Gemini API
 
 ### Day 5 — CLI Proposal Tool
@@ -63,17 +63,36 @@ a conversation with it. Powered by RAG, LangChain, ChromaDB, and Streamlit.
 - Features document stats, chat history, source page citations, and clean UI
 - **Tech:** Python, LangChain, ChromaDB, Gemini API, Streamlit
 
+### Day 10 — DocuMind Live Deployment
+- Deployed DocuMind to Streamlit Cloud — live on the internet with a real URL
+- Configured secrets management and switched to in-memory Chroma for cloud compatibility
+- **Tech:** Streamlit Cloud, GitHub CI/CD, Secrets Management
+
+### Day 11 — AI Agent with Tools (LangGraph)
+- Built a real AI agent using LangGraph that autonomously decides which tools to use
+- Tools include web search, calculator, date lookup, and file saving
+- Agent completed multi-step tasks: research → calculate → save report
+- **Tech:** Python, LangGraph, Groq API, DuckDuckGo Search, Tool decorators
+
+### Day 12 — Business Research Agent
+- Built an autonomous agent that researches any company and writes a personalized AI proposal
+- Searches the web for real company data, analyzes AI opportunities, saves proposals to files
+- Tested on Sapphire, Foodpanda, and Daraz Pakistan with specific ROI estimates
+- Key lesson: Python controls critical operations (saving), agent handles thinking and writing
+- **Tech:** Python, LangGraph, Groq API, Qwen 32B, Web Search, File I/O
+
 ---
 
 ## 📈 Goal
-$3,000–5,000/month through AI freelancing by December 2026
+can't reveal rn...
 
 ## 🧠 Skills Built So Far
-Python • Gemini API • Prompt Engineering • Web Scraping •
-LangChain • RAG • ChromaDB • Streamlit • CLI Tools • PDF Processing
+Python • Gemini API • Groq API • Prompt Engineering • Web Scraping •
+LangChain • RAG • ChromaDB • Streamlit • CLI Tools • PDF Processing •
+LangGraph • AI Agents • Tool Design • Agent Reliability Patterns
 
 ## 🔜 Coming Next
-AI Agents • FastAPI • Docker • n8n Automation • Deployment
+n8n Automation • FastAPI • Docker • Deployment • Multi-Agent Systems
 
 ## 📅 Started
 June 2026

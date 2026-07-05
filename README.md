@@ -81,6 +81,19 @@ a conversation with it. Powered by RAG, LangChain, ChromaDB, and Streamlit.
 - Key lesson: Python controls critical operations (saving), agent handles thinking and writing
 - **Tech:** Python, LangGraph, Groq API, Qwen 32B, Web Search, File I/O
 
+### Day 13 — n8n AI Email Classifier
+- Built first no-code AI automation workflow in n8n cloud
+- Webhook receives email data, Groq AI classifies into category/priority
+- Returns clean JSON with suggested reply in real time
+- **Tech:** n8n, Groq API, Webhook, JavaScript
+
+### Day 14 — AI Email Classifier + Google Sheets Integration
+- Extended the workflow to automatically log every email to Google Sheets
+- Added JavaScript parsing node to extract clean fields from AI response
+- Complete end-to-end automation: email in → AI classifies → Sheet updated
+- Freelance value: $300-500 per setup
+- **Tech:** n8n, Groq AI, Google Sheets API, JavaScript, Webhooks
+
 ---
 
 ## 📈 Goal
@@ -89,10 +102,10 @@ can't reveal rn...
 ## 🧠 Skills Built So Far
 Python • Gemini API • Groq API • Prompt Engineering • Web Scraping •
 LangChain • RAG • ChromaDB • Streamlit • CLI Tools • PDF Processing •
-LangGraph • AI Agents • Tool Design • Agent Reliability Patterns
+LangGraph • AI Agents • Tool Design • Agent Reliability Patterns • n8n Automation
 
 ## 🔜 Coming Next
-n8n Automation • FastAPI • Docker • Deployment • Multi-Agent Systems
+FastAPI • Docker • Deployment • Multi-Agent Systems
 
 ## 📅 Started
 June 2026
